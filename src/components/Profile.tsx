@@ -5,7 +5,7 @@ export function Profile(){
         <div className={styles.profileContainer}>
             <img src="https://github.com/Ellathet.png" alt="thet"/>
             <div>
-                <strong>EllaThet</strong>
+                <strong>Thet</strong>
                 <p>
                     <img src="icons/level.svg" alt="Level"/>
                     Level 1
