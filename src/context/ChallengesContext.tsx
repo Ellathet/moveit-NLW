@@ -50,10 +50,12 @@ export function ChallengesProvider({ children }: ChallengesProviderProps) {
 
     function completeChallenge() {
         setCurrentExperience(currentExperience + activeChallenge.amount)
+        setActiveChallenge(null)
 
         if(currentExperience + activeChallenge.amount > experienceToNextLevel) {
             levelUp()
             setCurrentExperience(currentExperience + activeChallenge.amount - experienceToNextLevel)
+
         }
     }
 
